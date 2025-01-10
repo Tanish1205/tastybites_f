@@ -9,8 +9,6 @@ export default function MyOrder() {
     const fetchMyOrder = async () => {
         console.log(localStorage.getItem('userEmail'))
         await fetch("https://tastybites-b.onrender.com/api/myorderdata", {
-            // credentials: 'include',
-            // Origin:"http://localhost:3000/login",
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

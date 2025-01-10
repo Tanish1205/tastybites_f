@@ -87,7 +87,7 @@ function Home() {
                   }
                 </div>
               )
-            }) : <div> aj;flaj;sl </div>
+            }) : <div> loading... </div>
         } 
       </div>
       <div> <Footer /> </div>
