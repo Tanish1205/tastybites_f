@@ -30,7 +30,7 @@ function Login() {
 
   return (
     <>
-      <div className='container flex border border-2 border-white rounded w-25 p-3 mt-5 col-6 col-md-4 col-lg-3'>
+      <div className='container flex border border-2 border-white rounded w-25 p-3 mt-5'>
         <form onSubmit={handleSubmit}>
           <div className="mb-3 w-100">
             <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
